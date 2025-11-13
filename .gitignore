@@ -1,0 +1,15 @@
+# Archivos específicos de Python
+*.pyc
+__pycache__/
+.env
+
+# Archivos de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Archivos de VS Code (configuración local de usuario)
+.vscode/settings.json
+
+# Archivos de salida y datos que se regeneran o son muy grandes (Geoespacial)
+/data/*.tif
+/outputs/figures/
+/outputs/results/
